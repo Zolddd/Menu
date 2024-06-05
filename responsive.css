@@ -1,0 +1,50 @@
+@media screen and (max-width: 1350px) {
+    .logo img {
+        position: relative;
+        right: 4rem;
+    }
+    .KhanaDotCom {
+        position: relative;
+        right: 4rem;
+    }
+    .search {
+        position: relative;
+        left: 4rem;
+    }
+    .search_btn {
+        position: relative;
+        left: 4rem;
+    }
+    .menu_header {
+        padding: 0px;
+        display: flex;
+        gap: 3rem;
+    }
+    .logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:900px) {
+    header {
+        height: 9rem;
+    }
+    .logo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:450px) {
+    header {
+        height: 15rem;
+        width: 20rem;
+    }
+    .search {
+        width: 9rem;
+    }
+    footer {
+        width: 20rem;
+    }
+}
